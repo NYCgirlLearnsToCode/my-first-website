@@ -1,6 +1,26 @@
 body {
 	background-color: lightblue;
+}
 
+nav ul{
+	list-style:none;
+	padding:0;
+}
+
+nav li{
+	float: left;
+	text-align: center;
+	width:33.33% 
+}
+
+nav a{
+	color:navy;
+	text-decoration: none; //only links in nav targeted, no underlines
+}
+
+nav a:hover {
+	text-decoration: underline;
+	color:white;
 }
 
 h1 {
@@ -11,6 +31,7 @@ h1 {
 }
 
 p, li {
+	color:navy;
 	font-family: Helvetica, sans-serif;
 	font-size:18px;
 	line-height:24px; 
